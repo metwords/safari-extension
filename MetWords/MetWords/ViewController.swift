@@ -27,7 +27,7 @@ class ViewController: NSViewController {
 
             DispatchQueue.main.async {
                 if (state.isEnabled) {
-                    self.appNameLabel.stringValue = "\(appName) 扩展已经启用。"
+                    self.appNameLabel.stringValue = "\(appName) 扩展已启用。"
                 } else {
                     self.appNameLabel.stringValue = "\(appName) 扩展未启用。你可以在 Safari 首选项启用本扩展。"
                 }
